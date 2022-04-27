@@ -1,16 +1,12 @@
 package co.micol.fileCopy;
 
-import co.micol.fileCopy.test.CopyRead;
+import co.micol.fileCopy.test.CopyReadWrite;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
     {
-        CopyRead cf = new CopyRead();
+    	CopyReadWrite cf = new CopyReadWrite();
         cf.run();
         
     }
