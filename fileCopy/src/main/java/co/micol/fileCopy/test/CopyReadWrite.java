@@ -17,7 +17,7 @@ public class CopyReadWrite {
 				System.out.print((char) data); // 형변환
 				wt.write(data);	
 			}
-	//		rd.close();
+			rd.close();
 			
 			wt.flush(); 
 			wt.close();
